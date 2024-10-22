@@ -1,0 +1,23 @@
+{
+  "name": "s3",
+  "version": "1.0.0",
+  "description": "Servicio s3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Edgar Navarro",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.651.1",
+    "@aws-sdk/lib-storage": "^3.651.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "fs-extra": "^11.2.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.4",
+    "shortid": "^2.2.16"
+  }
+}
